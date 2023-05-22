@@ -49,6 +49,11 @@
     z-index: 999;
 }
 
+.card-content {
+    position: relative;
+    /* pointer-events: none; */
+}
+
 .card-text {
     display: inline-block;
     width: 260px;

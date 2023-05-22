@@ -1,5 +1,4 @@
-import Card from "./addCard.js";
-import { removeCard } from "./removeCard.js";
+import Card from "./Card.js";
 import { displayCloseBtns } from "./displayCloseBtns.js";
 
 const newCard = new Card();
@@ -30,22 +29,22 @@ allColumn.forEach(item => {
     if (message === '') {
       controlInputArea();
     } else {
-      newCard.addCard(item, message);
+      newCard.add(item, message);
       controlInputArea();
       textarea.value = '';
     }
 
     const allCloseOfCards = document.querySelectorAll('.close');
-    removeCard(allCloseOfCards);
+    newCard.remove(allCloseOfCards);
 
     const allCards = document.querySelectorAll('.card');
     displayCloseBtns(allCards);
 
+   ///////////////////
+
+
+
+
+
   });
 });
-
-
-
-
-
-
