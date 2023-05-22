@@ -10,47 +10,31 @@
 </head>
 
 <body>
-    <div class="outer-container">
-        <div class="internal-container">
-            <div class="column">
-                <div class="column-items">
-                    <div class="column-items-title">
-                        <span class="title">todo</span>
-                    </div>
-                    <div class="cards"></div>
-                    <textarea class="textarea" value="" cols="30" rows="3" wrap="hard"
-                        placeholder="Enter a title for this card..."></textarea>
-                    <button class="btn-open-textarea">+ Add another card</button>
-                    <button class="btn-add-card">Add Card</button>
-                </div>
-            </div>
-            <div class="column">
-                <div class="column-items">
-                    <div class="column-items-title">
-                        <span class="title">in progress</span>
-                    </div>
-                    <div class="cards"></div>
-                    <textarea class="textarea" value="" cols="30" rows="3"
-                        placeholder="Enter a title for this card..."></textarea>
-                    <button class="btn-open-textarea">+ Add another card</button>
-                    <button class="btn-add-card">Add Card</button>
-                </div>
-            </div>
-            <div class="column">
-                <div class="column-items">
-                    <div class="column-items-title">
-                        <span class="title">done</span>
-                    </div>
-                    <div class="cards"></div>
-                    <textarea class="textarea" value="" cols="30" rows="3"
-                        placeholder="Enter a title for this card..."></textarea>
-                    <button class="btn-open-textarea">+ Add another card</button>
-                    <button class="btn-add-card">Add Card</button>
-                </div>
-            </div>
+    <div class="container">
+        <div class="col"></div>
+        <div class="block-input">
+            <input class="input invisible" type="text" value="">
         </div>
+        <button class="open-input-btn">Add another card</button>
+        <button class="insert-card-btn invisible">Add card</button>     
     </div>
-
+    <div class="container">
+        <div class="col"></div>
+        <div class="block-input">
+            <input class="input invisible" type="text" value="">
+        </div>
+        <!-- <span class="close-btn">x</span> -->
+        <button class="open-input-btn">Add another card</button>
+        <button class="insert-card-btn invisible">Add card</button>     
+    </div>
+    <div class="container">
+        <div class="col"></div>
+        <div class="block-input">
+            <input class="input invisible" type="text" value="">
+        </div>
+        <button class="open-input-btn">Add another card</button>
+        <button class="insert-card-btn invisible">Add card</button>     
+    </div>
     <script src="/src/js/app.js" type="module"></script>
 </body>
 

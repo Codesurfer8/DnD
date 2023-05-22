@@ -6,8 +6,16 @@
        "browser": true,
        "jest": true
     },
+    "parserOptions": {
+      "ecmaVersion": 13
+  },
+
     "rules": {
       "no-alert": 0,
+      "no-shadow": "off",
+      "no-tabs": ["error", { "allowIndentationTabs": true }],
+      "max-classes-per-file": "off",
+      "max-len": ["error", { "code": 200, "tabWidth": 4 }],
       "no-loop-func": 0,
       "no-proto": "error",
       "no-plusplus": 0,

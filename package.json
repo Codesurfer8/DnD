@@ -1,7 +1,7 @@
 {
   "name": "dom-game",
   "version": "1.0.0",
-  "description": "",
+  "description": "[Руководство по настройке Webpack](https://webpack.js.org/guides/)\r [Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)\r ![CI](https://github.com/codesurfer8/Game-goblin/actions/workflows/web.yml/badge.svg)",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -34,5 +34,13 @@
   },
   "dependencies": {
     "core-js": "^3.30.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codesurfer8/DnD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Codesurfer8/DnD/issues"
+  },
+  "homepage": "https://github.com/Codesurfer8/DnD#readme"
 }
